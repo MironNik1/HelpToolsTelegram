@@ -7,7 +7,7 @@ from telebot import types
 from strings import *
 from bs4 import BeautifulSoup
 
-bot = telebot.TeleBot(token='6528475302:AAFNSkqcJcCMD6rOWVBl9qK6GnRa3v6dCYc')
+bot = telebot.TeleBot()
 
 @bot.message_handler(commands=['start'])
 def Start(message):
